@@ -347,6 +347,10 @@ a {
   a:visited {
     color: #000040; }
 
+h3 a,
+h3 a:visited {
+  color: #000040; }
+
 span.preheader {
   display: none !important;
   visibility: hidden;
@@ -605,7 +609,7 @@ table.button.google table td {
     .socialIcons-col:last-child {
       padding-right: 0 !important; }
     .socialIcons-col p {
-      background-image: url("../assets/img/social-bg.png");
+      background-image: url("https://raw.githubusercontent.com/JosManMx/PLC-mail/master/dist/assets/img/social-bg.png");
       background-size: 100% 100%;
       background-repeat: no-repeat;
       padding: 0 !important;
