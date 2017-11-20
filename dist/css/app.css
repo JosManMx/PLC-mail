@@ -178,6 +178,14 @@ th.large-8.first {
 th.large-8.last {
   padding-right: 16px; }
 
+th.large-9 {
+  width: 419px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-9.first {
+  padding-left: 16px; }
+
 th.large-12 {
   width: 564px;
   padding-left: 8px;
@@ -209,6 +217,7 @@ th.expander {
 
 table.text-center,
 h1.text-center,
+h2.text-center,
 h3.text-center,
 h4.text-center,
 h5.text-center,
@@ -483,9 +492,18 @@ table.menu.text-center a {
   table.body .collapse .columns {
     padding-left: 0 !important;
     padding-right: 0 !important; }
+  th.small-3 {
+    display: inline-block !important;
+    width: 25% !important; }
+  th.small-4 {
+    display: inline-block !important;
+    width: 33.33333% !important; }
   th.small-6 {
     display: inline-block !important;
     width: 50% !important; }
+  th.small-9 {
+    display: inline-block !important;
+    width: 75% !important; }
   th.small-12 {
     display: inline-block !important;
     width: 100% !important; }
