@@ -61,13 +61,18 @@ table.button.google table td {
 /* =========================================================================
    CUSTOM 
    ========================================================================= */
- 
+    .section{
+      
+      .columns{
+        padding-top: 5px;
+        padding-bottom: 010px;
+      }
+    }
    .socialIcons{
       background-color:white !important;
       &-col{
         padding-bottom: 0px !important; 
-        margin: 0 10px 0 0  !important;
-        padding-left: 0 !important;
+        padding-left: 0px !important;
         &:last-child{
           padding-right: 0 !important;        
         }
@@ -77,13 +82,47 @@ table.button.google table td {
           background-repeat:no-repeat; 
           padding: 0 !important;
           color:white;
-          line-height: 50px;
           margin-bottom: 0;
-          
+          img {
+            margin: auto;
+            height: 50px;
+            padding: 10px;
+          }
         }
       }
    }
 
+   // hack for gutter of social icons in small screens
+  @media only screen and (max-width: 596px){
+    table.body .columns,
+    table.body .column {
+      padding-left:5px !important;
+      padding-right:5px !important;}
+    }
+
+
+    .section-title{
+      margin-left: 0 !important;
+      th{
+        padding-bottom: 0;
+      }
+      h4{
+        color:#000040; 
+        font-weight:bold;
+        line-height: 10px;
+        margin-bottom: 0;
+        padding-top: 10px;
+
+      }
+      img{
+          width: 25px !important;
+          display: inline;
+          &.dollar-icon, &.booking-icon{
+              height: 25px !important;
+              width: auto !important;
+          }
+      }
+    }
  
 /* END CUSTOM 
    ========================================================================= */
