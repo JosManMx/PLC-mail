@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'BunkenTechSansPro';
+  font-style: normal;
+  font-weight: normal;
+  src: url(assets/fonts/BunkenTechSansSCWide-Med.woff) format("woff"); }
+
 .wrapper {
   width: 100%; }
 
@@ -60,7 +66,7 @@ table.body {
   width: 100%; }
 
 table.container {
-  background: #fefefe;
+  background: #D7D7D7;
   width: 580px;
   margin: 0 auto;
   Margin: 0 auto;
@@ -259,7 +265,7 @@ td,
 th,
 a {
   color: #0a0a0a;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "BunkenTechSansPro", sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -275,28 +281,28 @@ h5,
 h6 {
   color: inherit;
   word-wrap: normal;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "BunkenTechSansPro", sans-serif;
   font-weight: normal;
   margin-bottom: 10px;
   Margin-bottom: 10px; }
 
 h1 {
-  font-size: 34px; }
-
-h2 {
-  font-size: 30px; }
-
-h3 {
-  font-size: 28px; }
-
-h4 {
   font-size: 24px; }
 
-h5 {
+h2 {
   font-size: 20px; }
 
-h6 {
+h3 {
   font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 12px; }
+
+h6 {
+  font-size: 10px; }
 
 body,
 table.body,
@@ -318,14 +324,14 @@ small {
   color: #cacaca; }
 
 a {
-  color: #2199e8;
+  color: #000040;
   text-decoration: none; }
   a:hover {
-    color: #147dc2; }
+    color: #00000d; }
   a:active {
-    color: #147dc2; }
+    color: #00000d; }
   a:visited {
-    color: #2199e8; }
+    color: #000040; }
 
 span.preheader {
   display: none !important;
@@ -346,17 +352,17 @@ table.button {
   table.button table td {
     text-align: left;
     color: #fefefe;
-    background: #2199e8;
-    border: 2px solid #2199e8; }
+    background: #000040;
+    border: 2px solid #000040; }
     table.button table td a {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "BunkenTechSansPro", sans-serif;
       font-size: 16px;
       font-weight: bold;
       color: #fefefe;
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #2199e8;
+      border: 0 solid #000040;
       border-radius: 3px; }
 
 table.button:hover table tr td a,
@@ -386,13 +392,13 @@ table.button.expand {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #147dc2;
+  background: #00000d;
   color: #fefefe; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #147dc2; }
+  border: 0 solid #00000d; }
 
 table.button.secondary table td {
   background: #777777;
@@ -442,7 +448,7 @@ th.callout-inner {
   padding: 10px;
   background: #fefefe; }
   th.callout-inner.primary {
-    background: #def0fc;
+    background: #bcbcff;
     border: 1px solid #444444;
     color: #0a0a0a; }
   th.callout-inner.secondary {
@@ -456,7 +462,7 @@ table.menu {
     padding: 10px;
     padding-right: 10px; }
     table.menu th.menu-item a {
-      color: #2199e8; }
+      color: #000040; }
 
 table.menu.vertical th.menu-item {
   padding: 10px;
@@ -563,3 +569,26 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3; }
+
+/* =========================================================================
+   CUSTOM 
+   ========================================================================= */
+.socialIcons {
+  background-color: white !important; }
+  .socialIcons-col {
+    padding-bottom: 0px !important;
+    margin: 0 10px 0 0  !important;
+    padding-left: 0 !important; }
+    .socialIcons-col:last-child {
+      padding-right: 0 !important; }
+    .socialIcons-col p {
+      background-image: url("../assets/img/social-bg.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding: 0 !important;
+      color: white;
+      line-height: 50px;
+      margin-bottom: 0; }
+
+/* END CUSTOM 
+   ========================================================================= */

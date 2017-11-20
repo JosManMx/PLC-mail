@@ -57,3 +57,33 @@ table.button.google table td {
 .wrapper.secondary {
   background: #f3f3f3;
 }
+
+/* =========================================================================
+   CUSTOM 
+   ========================================================================= */
+ 
+   .socialIcons{
+      background-color:white !important;
+      &-col{
+        padding-bottom: 0px !important; 
+        margin: 0 10px 0 0  !important;
+        padding-left: 0 !important;
+        &:last-child{
+          padding-right: 0 !important;        
+        }
+        p{
+          background-image: url('../assets/img/social-bg.png'); 
+          background-size:100% 100%;
+          background-repeat:no-repeat; 
+          padding: 0 !important;
+          color:white;
+          line-height: 50px;
+          margin-bottom: 0;
+          
+        }
+      }
+   }
+
+ 
+/* END CUSTOM 
+   ========================================================================= */
