@@ -68,6 +68,15 @@ table.button.google table td {
         padding-bottom: 010px;
       }
     }
+
+    .bg-brujula{
+      background-image: url('https://raw.githubusercontent.com/JosManMx/PLC-mail/master/dist/assets/img/brujula.png');
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: 100%;
+      
+    }
+
    .socialIcons{
       background-color:white !important;
       &-col{
@@ -103,6 +112,7 @@ table.button.google table td {
 
     .section-title{
       margin-left: 0 !important;
+      
       th{
         padding-bottom: 0;
       }
@@ -124,5 +134,9 @@ table.button.google table td {
       }
     }
  
+    // hack: erase bg in sections titles
+    table.container.section-title{
+      background-color: transparent;
+    }
 /* END CUSTOM 
    ========================================================================= */
