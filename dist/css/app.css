@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'BunkenTechSansPro';
-  font-style: normal;
-  font-weight: normal;
-  src: url(assets/fonts/BunkenTechSansSCWide-Med.woff) format("woff"); }
-
+@import 'http://52.24.157.128/plc-mail-fonts/bunken-fonts.css';
 .wrapper {
   width: 100%; }
 
