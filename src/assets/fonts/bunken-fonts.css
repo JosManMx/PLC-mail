@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: 'BunkenTechSansPro';
+  font-style: normal;
+  font-weight: 300;
+  src: url(TTF/BunkenTechSansProWide-Light.ttf) format('truetype'), url(OTF/BunkenTechSansProWide-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'BunkenTechSansPro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(TTF/BunkenTechSansProWide-Med.ttf) format('truetype'), url(OTF/BunkenTechSansProWide-Med.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'BunkenTechSansPro';
+  font-style: normal;
+  font-weight: 700;
+  src: url(TTF/BunkenTechSansProWide-Bold.ttf) format('truetype'), url(OTF/BunkenTechSansProWide-Bold.otf) format('opentype');
+}
