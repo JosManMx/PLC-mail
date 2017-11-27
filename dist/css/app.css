@@ -611,7 +611,7 @@ table.button.google table td {
       margin-bottom: 0; }
       .socialIcons-col p img {
         margin: auto;
-        height: 50px;
+        height: 35px;
         padding: 10px; }
 
 @media only screen and (max-width: 596px) {
@@ -638,6 +638,9 @@ table.button.google table td {
 
 table.container.section-title {
   background-color: transparent; }
+
+.light-text {
+  color: #6F6F6F; }
 
 /* END CUSTOM 
    ========================================================================= */
