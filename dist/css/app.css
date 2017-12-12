@@ -594,6 +594,9 @@ table.button.google table td {
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: 100%; }
+  @media only screen and (max-width: 596px) {
+    .bg-brujula {
+      background-image: none; } }
 
 .socialIcons {
   background-color: white !important; }
@@ -638,6 +641,11 @@ table.button.google table td {
 
 table.container.section-title {
   background-color: transparent; }
+
+.main-header {
+  background-color: transparent !important; }
+  .main-header img {
+    width: 100%; }
 
 .light-text {
   color: #6F6F6F; }
