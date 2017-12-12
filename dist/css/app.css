@@ -596,7 +596,7 @@ table.button.google table td {
   background-position: 100%; }
   @media only screen and (max-width: 596px) {
     .bg-brujula {
-      background-image: none; } }
+      background-image: none !important; } }
 
 .socialIcons {
   background-color: white !important; }
